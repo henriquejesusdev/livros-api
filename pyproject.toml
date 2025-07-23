@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "livros-api"
+version = "0.1.0"
+description = "API FastAPI com cache Redis para gerenciamento de livros"
+authors = ["Seu Nome <seu.email@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.115.0"
+uvicorn = "^0.30.0"
+redis = "^5.0.0"
+pydantic = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.0.0"
+requests = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
